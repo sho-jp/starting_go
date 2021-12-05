@@ -1,14 +1,13 @@
 package main
 
 import (
+	"fmt"
 )
 
 func main() {
-  n := 1
-  b := byte(n)
-  i64 := int64(n)
-  u32 := uint32(n)
-  println(b)
-  println(i64)
-  println(u32)
+  for i :=0; i <= 100; i ++ {
+    fmt.Printf("[%d] Hello World!\n", i)
+  }
 }
+
+
